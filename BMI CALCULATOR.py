@@ -5,5 +5,5 @@ Weight=float(input())
 print("Enter height of candidate in meter  ")
 Height= float(input())
 Avg= Height*Height
-BMI=Weight/Height
+BMI=Weight/Avg
 print("BMI of candidate "," ",BMI)
